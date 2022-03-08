@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid grid-cols-2 gap-4 w-auto">
+    <div class="sm:grid sm:grid-cols-2 sm:gap-4 sm:w-auto">
       <div class="banner-img"></div>
       <div class="flex justify-center items-center">
         <div class="">

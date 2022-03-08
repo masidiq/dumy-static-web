@@ -1,9 +1,18 @@
+$xs: 600px;
+
+
 .banner-img {
     margin-left: -448px;
     height: 420px;
     overflow: hidden;
     background: url('/sample.jpg');
     background-position: top right;
+
+    @media screen and(max-width: $xs) {
+      margin-left: 0;
+      height: auto;
+      width: auto;;
+    }
 }
 
 .text-indent {
