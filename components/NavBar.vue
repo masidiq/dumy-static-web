@@ -57,7 +57,7 @@
               ></path>
             </svg>
           </button>
-          <a href="#" class="flex items-center">
+          <NuxtLink to="/" class="flex items-center">
             <span
               class="
                 self-center
@@ -68,7 +68,7 @@
               "
               >Fajar Group</span
             >
-          </a>
+          </NuxtLink>
 
           <div class="hidden w-full md:block md:w-auto">
             <ul
@@ -79,8 +79,8 @@
               "
             >
               <li>
-                <a
-                  href="#"
+                <NuxtLink
+                  to="/industri"
                   class="
                     block
                     py-2
@@ -89,16 +89,34 @@
                     text-white
                     bg-blue-700
                     rounded
-                    md:bg-transparent md:text-blue-700 md:p-0
+                    md:bg-transparent md:text-black md:p-0
                     dark:text-white
                   "
                   aria-current="page"
-                  >Industri</a
+                  >Industri</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="#"
+                <NuxtLink
+                  to="/produk"
+                  class="
+                    block
+                    py-2
+                    pr-4
+                    pl-3
+                    text-white
+                    bg-blue-700
+                    rounded
+                    md:bg-transparent md:text-black md:p-0
+                    dark:text-white
+                  "
+                  aria-current="page"
+                  >Produk</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
+                  to="/layanan"
                   class="
                     block
                     py-2
@@ -117,77 +135,43 @@
                     md:dark:hover:bg-transparent
                     dark:border-gray-700
                   "
-                  >Produk</a
+                  >Layanan</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="#"
+                <NuxtLink
+                  to="/karier"
                   class="
                     block
                     py-2
                     pr-4
                     pl-3
-                    text-gray-700
-                    border-b border-gray-100
-                    hover:bg-gray-50
-                    md:hover:bg-transparent
-                    md:border-0
-                    md:hover:text-blue-700
-                    md:p-0
-                    dark:text-gray-400
-                    md:dark:hover:text-white
-                    dark:hover:bg-gray-700 dark:hover:text-white
-                    md:dark:hover:bg-transparent
-                    dark:border-gray-700
+                    text-white
+                    bg-blue-700
+                    rounded
+                    md:bg-transparent md:text-black md:p-0
+                    dark:text-white
                   "
-                  >Layanan</a
+                  aria-current="page"
+                  >Karier</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="#"
+                <NuxtLink
+                  to="/tentang-kami"
                   class="
                     block
                     py-2
                     pr-4
                     pl-3
-                    text-gray-700
-                    border-b border-gray-100
-                    hover:bg-gray-50
-                    md:hover:bg-transparent
-                    md:border-0
-                    md:hover:text-blue-700
-                    md:p-0
-                    dark:text-gray-400
-                    md:dark:hover:text-white
-                    dark:hover:bg-gray-700 dark:hover:text-white
-                    md:dark:hover:bg-transparent
-                    dark:border-gray-700
+                    text-white
+                    bg-blue-700
+                    rounded
+                    md:bg-transparent md:text-black md:p-0
+                    dark:text-white
                   "
-                  >Karier</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="
-                    block
-                    py-2
-                    pr-4
-                    pl-3
-                    text-gray-700
-                    hover:bg-gray-50
-                    md:hover:bg-transparent
-                    md:border-0
-                    md:hover:text-blue-700
-                    md:p-0
-                    dark:text-gray-400
-                    md:dark:hover:text-white
-                    dark:hover:bg-gray-700 dark:hover:text-white
-                    md:dark:hover:bg-transparent
-                  "
-                  >Tentang Kami</a
+                  aria-current="page"
+                  >Tentang Kami</NuxtLink
                 >
               </li>
             </ul>
