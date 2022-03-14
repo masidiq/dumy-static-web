@@ -66,7 +66,7 @@
                 whitespace-nowrap
                 dark:text-white
               "
-              >Fajar Group</span
+              >Sample</span
             >
           </NuxtLink>
 

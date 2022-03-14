@@ -4,7 +4,7 @@
       <div class="banner-img"></div>
       <div class="flex justify-center items-center">
         <div class="">
-          <div class="text-5xl">Fajar Group</div>
+          <div class="text-5xl">Sample Group</div>
           <div class="text-sm mb-14 mt-2">
             Melayani dengan Teknologi, Mutu dan Harga Terbaik
           </div>
