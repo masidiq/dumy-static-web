@@ -3,7 +3,7 @@
     Produk :
     <ul>
       <li>
-        <a href="https://sompo-qa/reservation/insurance/quotation">
+        <a href="https://sompo-qa.opsinfra.com/Reservation/Insurance/Quotation">
           Asuransi Sompo QA</a
         >
       </li>
