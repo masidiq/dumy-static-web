@@ -1,17 +1,13 @@
 <template>
   <div>
-    Produk :
+    
     <ul>
       <li>
-        <a href="https://sompo-qa.opsinfra.com/Reservation/Insurance/Quotation">
-          Asuransi Sompo QA</a
+        <a href="https://sompo-qa.travel-tech.net/Reservation/Insurance/Quotation">
+          Beli Asuransi</a
         >
       </li>
-      <li>
-        <a href="http://localhost:44366/reservation/insurance/quotation">
-          Asuransi Sompo QA - localhost</a
-        >
-      </li>
+    
     </ul>
   </div>
 </template>
